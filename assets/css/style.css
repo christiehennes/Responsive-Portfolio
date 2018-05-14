@@ -39,7 +39,8 @@ flex-direction: column;
 }
 
 .menu-item {
-    padding:2px;
+    padding-left: 10px; 
+    padding-right: 10px; 
     flex: 1;
     text-align: center;
 }
@@ -243,6 +244,15 @@ a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .portfolio-name-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-items-wrapper{
+        padding: 10px;
     }
 
 
