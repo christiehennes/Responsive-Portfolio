@@ -1,0 +1,227 @@
+html, body {
+    height: 100%;
+}
+
+
+.body {
+display: flex;
+flex-direction: column;
+
+}
+
+.content-width {
+    width: 960px;
+}
+
+/* Menu Wrapper */
+.menu{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.menu-wrapper{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-name-wrapper {
+    background-color: #4aaaa5;
+    padding: 20px;
+}
+
+.menu-items-wrapper{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menu-item {
+    padding:2px;
+    flex: 1;
+    text-align: center;
+}
+
+.menu-item + .menu-item {
+    border-left: 1px solid #777777;
+}
+
+
+/* Content Wrapper */
+.content{
+
+    flex: 1;
+    background: url(../images/topography.png);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-wrapper{
+    background-color: white;
+    margin-top: 20px;
+    height: auto;
+    border: 1px solid #dddddd;
+}
+
+.content-padding {
+    padding: 20px;
+}
+
+.content-divider {
+    margin-bottom: 20px;
+
+    border: 0;
+    border-top: 2px solid #cccccc;
+    border-bottom: 1px solid #fff;
+}
+
+.content-title {
+    margin-bottom: 20px;
+    color: #4aaaa5;
+}
+
+
+
+/* About Page */
+.about-image {
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+
+
+/* Contact Page */
+
+.entry-fields{
+    margin-top: 20px;
+}
+
+.field-name {
+    margin-bottom: 5px;
+}
+.field {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+}
+
+.submit-button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+
+
+/* Portfolio Page */
+
+.portfolio-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item-wrapper {
+    margin: 10px;
+    position: relative;
+}
+
+.portfolio-item-image {
+    width: 250px;
+
+}
+
+.portfolio-item-image-container {
+    position: relative;
+}
+
+.portfolio-item-title-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom:10px;
+    background-color: #4aaaa5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-text {
+    text-align: center;
+}
+
+
+/* Footer Wrapper */
+.footer-wrapper{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top{
+    /* flex: 1; */
+    background-color: #4aaaa5;
+    height: 5px;
+}
+.footer-bottom{
+    /* flex: 4; */
+    height: 40px;
+    background-color: #666666;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-content {
+    text-align: center;
+    margin: 5px;
+
+}
+
+
+/* Font Styling */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.menu-header-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.content-font {
+font-family: Arial, Helvetica, sans-serif;
+color: #777777;
+}
+
+a:link{
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+.footer-content-text {
+    font-size: 10px;
+    color: white;
+}
