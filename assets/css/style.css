@@ -109,7 +109,7 @@ flex-direction: column;
 .field {
     width: 100%;
     margin-bottom: 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #dddddd;
 }
 
 .submit-button {
@@ -212,6 +212,10 @@ color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.portfolio-text {
+    color: white;
+}
+
 a:link{
     color: #777777;
     text-decoration: none;
@@ -234,8 +238,8 @@ a:hover{
 @media screen and (max-width: 980px) {
 
     .menu-wrapper{
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .content {
@@ -243,8 +247,8 @@ a:hover{
     }
 
     .content-wrapper{
-        margin-left: 2vw;
-        margin-right: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
         width: 60vw;
     }
 
@@ -252,6 +256,7 @@ a:hover{
 } 
 
 @media screen and (max-width: 768px) {
+
 
     .content{
         justify-content: center;
@@ -265,6 +270,9 @@ a:hover{
 
 @media screen and (max-width: 640px) {
 
+    .menu{
+        /* position: static; */
+    }
 
     .menu-wrapper{
 
@@ -272,6 +280,8 @@ a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
 
     .portfolio-name-wrapper {
