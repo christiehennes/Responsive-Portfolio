@@ -6,6 +6,8 @@ html, body {
 .body {
 display: flex;
 flex-direction: column;
+background: url(../images/topography.png);
+position: relative;
 
 }
 
@@ -18,10 +20,10 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #cccccc;
+    background-color: white;
 }
 
 .menu-wrapper{
-    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,9 +52,6 @@ flex-direction: column;
 .content{
 
     flex: 1;
-    background: url(../images/topography.png);
-    overflow: auto;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -273,7 +272,7 @@ a:hover{
 @media screen and (max-width: 640px) {
 
     .menu{
-        /* position: static; */
+        position: static;
     }
 
     .menu-wrapper{
